@@ -1,0 +1,84 @@
+html{
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    z-index: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+.light{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    
+}
+.red{
+    top: -200px;
+    left: -200px;
+    background: linear-gradient(338deg, rgba(2,0,36,1) 0%, rgba(33,77,97,1) 35%, rgba(0,212,255,1) 100%);
+}
+.blue{
+    bottom: -200px;
+    right: -200px;
+    background: linear-gradient(338deg, rgba(2,0,36,1) 0%, rgb(71, 33, 97) 35%, rgb(255, 0, 149) 100%);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 9;
+    margin: 5%;
+}
+.saludo{
+    font-size: 50px;
+}
+.mensaje{
+    font-size: 25px;
+
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.img{
+    border: 1px solid white;
+    width:45%;
+    height: auto;
+    margin: 2px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.vdo{
+    width: 45%;
+    margin: 5px;
+    border: 1px solid white;
+}
+.despedida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final{
+    width: 80vw;
+    border: 1px solid white;
+}
